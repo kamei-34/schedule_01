@@ -10,7 +10,12 @@
         <div class="example3">
             <h1 class="example2">パスワード</h1>
             <div class="example1">
-                <button>ログイン</button>
+                <div>
+                    <button>ログイン</button>
+                    <a href="{{ url('/')}}">
+                        <button>戻る</button>
+                    </a>
+                </div>
             </div>
         </div>
     </body>

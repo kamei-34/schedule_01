@@ -20,3 +20,27 @@ Route::get('/', function() {
 Route::get('/create_schedule', function() {
     return view('posts/create_schedule');
 });
+
+Route::get('/add_task', function() {
+    return view('posts/add_task');
+});
+
+Route::get('/create_sheet', function() {
+    return view('posts/create_sheet');
+});
+
+Route::get('/edit_sheet', function() {
+    return view('posts/edit_sheet');
+});
+
+Route::get('/edit_task', function() {
+    return view('posts/edit_task');
+});
+
+Route::get('/login', function() {
+    return view('posts/login');
+});
+
+Route::get('/schedule', function() {
+    return view('posts/schedule');
+});

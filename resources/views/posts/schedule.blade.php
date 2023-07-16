@@ -9,11 +9,19 @@
     <body>
         <div style="display: flex; align-items: center;">
             <h1 style="flex: 1;">題目:</h1>
-            <button align="right">タスクの追加</button>
+            <div>
+                <a href="{{ url('/add_task')}}">
+                    <button align="right">タスクの追加</button>
+                </a>
+            </div>
         </div>
         <div style="display: flex; align-items: center;">
             <h3 style="flex: 1;">シート名:</h3>
-            <button align="right">シート名の変更</button>
+            <div>
+                <a href ="{{ url('/edit_sheet')}}">
+                    <button align="right">シート名の変更</button>
+                </a>
+            </div>
         </div>
         <div id="currentMonth"></div>
         <div id="calendar1"></div>

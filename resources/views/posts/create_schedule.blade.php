@@ -12,6 +12,11 @@
             <h1 class="example2">パスワード</h1>
             <div class="example1">
                 <button>新規作成</button>
+                <div>
+                    <a href="{{ url('/')}}">
+                        <button>戻る</button>
+                    </a>
+                </div>
             </div>
         </div>
     </body>

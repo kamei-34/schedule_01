@@ -10,8 +10,12 @@
         <div class="example3">
             <h1 class="example2">ページタイトル</h1>
             <div class="example1">
-                <button>追加</button>
-                <button>削除</button>
+                <div>
+                    <button>追加</button>
+                    <a href ="{{ url('/schedule')}}">
+                        <button>削除</button>
+                    </a>
+                </div>
             </div>
         </div>
     </body>

@@ -12,8 +12,12 @@
             <h1 class="example2">＜内容＞</h1>
             <h1 class="example2">＜色＞</h1>
             <div class="example1">
-                <button>保存</button>
-                <button>削除</button>
+                <div>
+                    <button>保存</button>
+                    <a href="{{ url('/schedule')}}">
+                        <button>削除</button>
+                    </a>
+                </div>
             </div>
         </div>
     </body>
